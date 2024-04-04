@@ -1,4 +1,4 @@
-# streaming
+# Bigquery streaming 
 ## This project uses flask and html to create a simple frontend which takes user data via a form. This data is streamed to pubsub and then to simple streaming or aggregation job using dataflow. The dataflow output is inserted into Bigquery for analysis. In order to test working of app and bigquery authorisation , i am also directly inserting data from app to bigquery using bigquery client for python.
 
 FLASK APP  &#8594; PUBSUB  &#8594; DATAFLOW  &#8594; Bigquery
